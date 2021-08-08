@@ -21,7 +21,7 @@ This project contains completed technical task, the app called TheWheelyCoolApp.
 
 #### Things to improve
 
-Improve logic for item/color size limit
-Add touch control to Spinning Wheel
-Add Hilt for improving testability
-More translations
+- Improve logic for item/color size limit
+- Add touch control to Spinning Wheel
+- Add Hilt for improving testability
+- More translations
