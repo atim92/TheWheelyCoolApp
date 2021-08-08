@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wheel_nav"
+    app:startDestination="@id/addItemsFragment">
+    <fragment
+        android:id="@+id/addItemsFragment"
+        android:name="com.tatam.thewheelycoolapp.ui.additems.AddItemsFragment"
+        android:label="AddItemsFragment"
+        tools:layout="@layout/fragment_add_items">
+        <action
+            android:id="@+id/action_addItemsFragment_to_spinningWheelFragment"
+            app:destination="@id/spinningWheelFragment"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/spinningWheelFragment"
+        android:name="com.tatam.thewheelycoolapp.ui.spinningwheel.SpinningWheelFragment"
+        android:label="SpinningWheelFragment"
+        tools:layout="@layout/fragment_spinning_wheel">
+        <action
+            android:id="@+id/action_spinningWheelFragment_to_addItemsFragment"
+            app:destination="@id/addItemsFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">TheWheelyCoolApp</string>
+    <string name="done">Done</string>
+    <string name="spin">Spin</string>
+    <string name="hint_add_wheel_item">Add wheel item</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="toast_item_name_empty_warning">Item name can\'t be empty</string>
+    <string name="toast_item_name_exists_warning">Item already exists</string>
+    <string name="toast_item_one_item_warning">You can\'t  spin one item. What is the point?</string>
+    <string name="update">Update</string>
+    <string name="no_item_warning">No items.\nAdd some by pressing plus button</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+	<string name="done">Rampung</string>
+	<string name="spin">Spin</string>
+	<string name="hint_add_wheel_item">Tambah item rodha</string>
+	<string name="add">Tambah</string>
+	<string name="cancel">Batal</string>
+	<string name="toast_item_name_empty_warning">Jeneng item ora bisa kosong</string>
+	<string name="toast_item_name_exists_warning">Barang wis ana</string>
+	<string name="toast_item_one_item_warning">Sampeyan ora bisa muter siji barang. Apa intine?</string>
+	<string name="update">Nganyari</string>
+	<string name="no_item_warning">Ora ana barang. \ N Tambah sawetara kanthi pencet tombol plus</string>
+</resources>

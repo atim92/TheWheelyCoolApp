@@ -1,0 +1,12 @@
+<resources>
+	<string name="done">Готово</string>
+	<string name="spin">Вращать колесо</string>
+	<string name="hint_add_wheel_item">Добавить текст</string>
+	<string name="add">Добавлять</string>
+	<string name="cancel">Отмена</string>
+	<string name="toast_item_name_empty_warning">Название предмета не может быть пустым</string>
+	<string name="toast_item_name_exists_warning">Текст уже существует</string>
+	<string name="toast_item_one_item_warning">Вы не можете крутить один предмет. В чем суть?</string>
+	<string name="update">Обновлять</string>
+	<string name="no_item_warning">Нет элементов. \ NДобавьте их, нажав кнопку "плюс".</string>
+</resources>
