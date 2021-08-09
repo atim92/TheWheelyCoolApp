@@ -74,10 +74,10 @@ class WheelItemsDatabaseTest : TestCase() {
             assertEquals(repository.checkItemExists(expectedName), true)
 
             val expectedName2 = "Cat"
-            assertEquals(repository.checkItemExists(expectedName), true)
+            assertEquals(repository.checkItemExists(expectedName2), true)
 
             val expectedName3 = "Bird"
-            assertEquals(repository.checkItemExists(expectedName), true)
+            assertEquals(repository.checkItemExists(expectedName3), true)
         }
     }
 
@@ -92,10 +92,10 @@ class WheelItemsDatabaseTest : TestCase() {
             assertEquals(repository.checkItemExists(expectedName), false)
 
             val expectedName2 = "Lamb"
-            assertEquals(repository.checkItemExists(expectedName), false)
+            assertEquals(repository.checkItemExists(expectedName2), false)
 
             val expectedName3 = "Cow"
-            assertEquals(repository.checkItemExists(expectedName), false)
+            assertEquals(repository.checkItemExists(expectedName3), false)
         }
     }
 }
