@@ -7,7 +7,6 @@ import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.tatam.thewheelycoolapp.data.model.WheelItem
-import com.tatam.thewheelycoolapp.data.model.WheelItemDao
 import com.tatam.thewheelycoolapp.data.model.WheelItemRepository
 import junit.framework.TestCase
 import kotlinx.coroutines.runBlocking

@@ -1,6 +1,7 @@
 package com.tatam.thewheelycoolapp.data.model
 
 import androidx.lifecycle.LiveData
+import com.tatam.thewheelycoolapp.data.room.WheelItemDao
 
 class WheelItemRepository (private val wheelItemDao: WheelItemDao) {
 

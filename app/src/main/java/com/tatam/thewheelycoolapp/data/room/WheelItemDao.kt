@@ -1,7 +1,8 @@
-package com.tatam.thewheelycoolapp.data.model
+package com.tatam.thewheelycoolapp.data.room
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
+import com.tatam.thewheelycoolapp.data.model.WheelItem
 
 @Dao
 interface WheelItemDao {
