@@ -11,7 +11,7 @@ This project contains completed technical task, the app called TheWheelyCoolApp.
 - Fully custom SpinningWheelView with speed, duration adjustments
 - Survives orientation changes due to persistence
 - Dark Mode 
-- Unit, Integration and some UI tests present
+- Some unit, Integration and  UI tests present
 - Translations En, Ko, Ru
 
 ![image1](https://github.com/atim92/TheWheelyCoolApp/blob/master/photo1628430181%20(1).jpeg "image1")
@@ -24,4 +24,5 @@ This project contains completed technical task, the app called TheWheelyCoolApp.
 - Improve logic for item/color size limit
 - Add touch control to Spinning Wheel
 - Add Hilt for improving testability
-- More translations
+- Add Dialog Builider helper class
+- More tests, translations
